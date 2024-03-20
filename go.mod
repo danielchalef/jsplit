@@ -3,6 +3,7 @@ module github.com/danielchalef/jsplit
 go 1.19
 
 require (
+	github.com/klauspost/pgzip v1.2.6
 	github.com/libp2p/go-buffer-pool v0.1.0
 	github.com/stretchr/testify v1.8.1
 	gocloud.dev v0.27.0
@@ -42,6 +43,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/klauspost/compress v1.15.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/net v0.0.0-20221014081412-f15817d10f9b // indirect

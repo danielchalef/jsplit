@@ -1,8 +1,8 @@
 package jsplit
 
 import (
-	"compress/gzip"
 	"context"
+	gzip "github.com/klauspost/pgzip"
 	"io"
 	"net/http"
 	"os"
